@@ -1,5 +1,9 @@
 const SkillsSection = () => {
-  return <div>SkillsSection</div>;
+  return (
+    <div>
+      <h2 className="text-xl">Skills: </h2>
+    </div>
+  );
 };
 
 export default SkillsSection;

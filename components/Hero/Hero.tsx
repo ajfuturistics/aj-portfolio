@@ -16,33 +16,53 @@ const Hero = () => {
             Hi, I&apos;m Abhishek, Full Stack Developer
           </h1>
           <p className="lg:text-xl font-light">
-            I have 1.6 years of experience as a talented front-end developer but
-            minimal background in the backend. I like expanding my knowledge and
-            growing personally.
+            I have <span className="font-semibold">1.6 years</span> of
+            experience as a talented front-end developer but minimal background
+            in the backend. I like expanding my knowledge and growing
+            personally.
           </p>
 
           <div className="flex flex-col gap-2">
             <p className="lg:text-xl ">Follow Me: </p>
             <div className="flex flex-wrap gap-2">
-              <a href="mailto:abhishekjadhav2310@gmail.com">
+              <a
+                className=" transition-all duration-150 hover:scale-110 "
+                href="mailto:abhishekjadhav2310@gmail.com"
+              >
                 <AiFillMail size={28} />
               </a>
-              <a href="https://github.com/ajfuturistics">
+              <a
+                className=" transition-all duration-150 hover:scale-110 "
+                href="https://github.com/ajfuturistics"
+              >
                 <AiFillGithub size={28} />
               </a>
-              <a href="https://www.linkedin.com/in/abhishek-jadhav-94553a20a">
+              <a
+                className=" transition-all duration-150 hover:scale-110 "
+                href="https://www.linkedin.com/in/abhishek-jadhav-94553a20a"
+              >
                 <AiFillLinkedin size={28} />
               </a>
-              <a href="https://twitter.com/mr_aj2310">
+              <a
+                className=" transition-all duration-150 hover:scale-110 "
+                href="https://twitter.com/mr_aj2310"
+              >
                 <AiFillTwitterCircle size={28} />
               </a>
-              <a href="https://www.instagram.com/mr_aj2310">
+              <a
+                className=" transition-all duration-150 hover:scale-110 "
+                href="https://www.instagram.com/mr_aj2310"
+              >
                 <AiOutlineInstagram size={28} />
               </a>
             </div>
           </div>
 
-          <a download href="resume.pdf" className="hover:scale-110">
+          <a
+            download
+            href="resume.pdf"
+            className=" transition-all duration-150 hover:scale-110 "
+          >
             Download Resume
           </a>
         </div>

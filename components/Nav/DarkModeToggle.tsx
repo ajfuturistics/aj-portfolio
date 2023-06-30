@@ -4,14 +4,11 @@ import React, { useState } from "react";
 import { HiSun, HiMoon } from "react-icons/hi";
 
 const DarkModeToggle = () => {
-  const [isDarkTheme, setIsDarkTheme] = useState(
-    document.documentElement.classList.contains("dark")
-  );
-
   function processThemeChange() {
-    setIsDarkTheme((isDarkTheme) => !isDarkTheme);
-    if (localStorage.getItem("color-theme")) {
-      if (localStorage.getItem("color-theme") === "light") {
+    const colorTheme = localStorage.getItem("color-theme");
+
+    if (colorTheme) {
+      if (colorTheme === "light") {
         document.documentElement.classList.add("dark");
         localStorage.setItem("color-theme", "dark");
       } else {
