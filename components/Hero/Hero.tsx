@@ -26,30 +26,35 @@ const Hero = () => {
             <div className="flex flex-wrap gap-2">
               <a
                 className=" transition-all duration-150 hover:scale-110 "
+                target="_blank"
                 href="mailto:abhishekjadhav2310@gmail.com"
               >
                 <AiFillMail size={28} />
               </a>
               <a
                 className=" transition-all duration-150 hover:scale-110 "
+                target="_blank"
                 href="https://github.com/ajfuturistics"
               >
                 <AiFillGithub size={28} />
               </a>
               <a
                 className=" transition-all duration-150 hover:scale-110 "
+                target="_blank"
                 href="https://www.linkedin.com/in/abhishek-jadhav-94553a20a"
               >
                 <AiFillLinkedin size={28} />
               </a>
               <a
                 className=" transition-all duration-150 hover:scale-110 "
+                target="_blank"
                 href="https://twitter.com/mr_aj2310"
               >
                 <AiFillTwitterCircle size={28} />
               </a>
               <a
                 className=" transition-all duration-150 hover:scale-110 "
+                target="_blank"
                 href="https://www.instagram.com/mr_aj2310"
               >
                 <AiOutlineInstagram size={28} />
