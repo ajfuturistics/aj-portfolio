@@ -16,10 +16,9 @@ const Hero = () => {
             Hi, I&apos;m Abhishek, Full Stack Developer
           </h1>
           <p className="lg:text-xl font-light">
-            I have <span className="font-semibold">1.6 years</span> of
-            experience as a talented front-end developer but minimal background
-            in the backend. I like expanding my knowledge and growing
-            personally.
+            I have 1.6 years of experience as a talented front-end developer but
+            minimal background in the backend. I like expanding my knowledge and
+            growing personally.
           </p>
 
           <div className="flex flex-col gap-2">
