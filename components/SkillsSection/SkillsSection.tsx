@@ -6,13 +6,13 @@ const SkillsSection = () => {
     <section className="dark:text-emerald-400 flex flex-col gap-2">
       <h2 className="text-xl lg:text-3xl font-semibold grow ">Skills: </h2>
 
-      <div className="grid gap-4 grid-cols-[repeat(auto-fill,minmax(60px,1fr))] md:grid-cols-[repeat(auto-fill,minmax(120px,1fr))]">
+      <div className="grid gap-4 grid-cols-[repeat(auto-fill,minmax(3.75rem,1fr))] md:grid-cols-[repeat(auto-fill,minmax(5.625rem,1fr))] lg:grid-cols-[repeat(auto-fill,minmax(7.5rem,1fr))]">
         {skills.map((skill) => (
           <div
             key={skill.id}
             className="relative max-w-[8rem] w-full h-full my-0 mx-auto overflow-visible group border border-black dark:border-emerald-500"
           >
-            <div className=" bg-white flex flex-col justify-center items-center w-full h-full p-4 ">
+            <div className="bg-white flex flex-col justify-center items-center p-4 ">
               <Image
                 src={skill.logoPath}
                 alt={skill.name}
