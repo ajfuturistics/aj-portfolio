@@ -10,7 +10,7 @@ const SkillsSection = () => {
         {skills.map((skill) => (
           <div
             key={skill.id}
-            className="relative max-w-[8rem] w-full h-full my-0 mx-auto overflow-visible group border border-black dark:border-emerald-500"
+            className="relative max-w-[8rem] w-full my-0 mx-auto overflow-visible group border border-black dark:border-emerald-500"
           >
             <div className="bg-white flex flex-col justify-center items-center p-4 ">
               <Image
