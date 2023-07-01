@@ -37,7 +37,7 @@ export const projects: ProjectData[] = [
   },
   {
     id: 5,
-    title: "React Native Expo Shopping App",
+    title: "React Native Shopping App",
     image: "",
     desc: "This is e-commerse mobile app in this users can shop for products. In admin panel admin can add products and manage orders",
     stack: "React Native, Expo, Firebase",
