@@ -1,6 +1,6 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
-import { AiFillTool, AiFillGithub } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import React from "react";
 
 const ProjectCard = ({ title, desc, stack, source }: ProjectData) => {
