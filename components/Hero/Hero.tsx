@@ -16,9 +16,9 @@ const Hero = () => {
             Hi, I&apos;m Abhishek, Full Stack Developer
           </h1>
           <p className="lg:text-xl font-light">
-            I have 1.6 years of experience as a talented front-end developer but
-            minimal background in the backend. I like expanding my knowledge and
-            growing personally.
+            I am a skilled full-stack developer with one year and six months of
+            experience. I use NodeJs, TypeScript, NextJs, and ReactJs in my
+            work. I enjoy learning new things and developing myself.
           </p>
 
           <div className="flex flex-col gap-2">
