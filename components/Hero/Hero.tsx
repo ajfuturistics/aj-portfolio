@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <section className="md:h-[50vh] lg:h-[75vh] flex justify-center items-center">
       <div className="lg:w-[90vw] flex flex-col-reverse items-center justify-center lg:flex-row gap-4 lg:gap-0">
-        <div className="w-full md:w-[70%] lg:w-[120%] h-full flex flex-col gap-4 justify-center items-start dark:text-emerald-400">
+        <div className="w-full md:w-[70%] lg:w-[120%] h-full flex flex-col gap-4 justify-center items-start dark:text-white">
           <h1 className="text-3xl lg:text-6xl font-semibold grow ">
             Hi, I&apos;m Abhishek, Full Stack Developer
           </h1>

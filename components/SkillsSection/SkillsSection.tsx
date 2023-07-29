@@ -3,7 +3,7 @@ import { skills } from "./data";
 
 const SkillsSection = () => {
   return (
-    <section className="dark:text-emerald-400 flex flex-col gap-2">
+    <section className="dark:text-white flex flex-col gap-2">
       <h2 className="text-xl lg:text-3xl font-semibold grow ">Skills: </h2>
 
       <div className="grid gap-4 grid-cols-[repeat(auto-fill,minmax(3.75rem,1fr))] md:grid-cols-[repeat(auto-fill,minmax(5.625rem,1fr))] lg:grid-cols-[repeat(auto-fill,minmax(7.5rem,1fr))]">

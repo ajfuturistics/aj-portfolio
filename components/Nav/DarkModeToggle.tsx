@@ -35,7 +35,7 @@ const DarkModeToggle = () => {
       id="theme-toggle"
       onClick={switchTheme}
       type="button"
-      className={`  bg-white flex flex-col justify-center items-center border border-black dark:border-emerald-500 dark:bg-black dark:text-white p-2`}
+      className={`  bg-white flex flex-col justify-center items-center border border-black dark:border-white dark:bg-black dark:text-white p-2`}
     >
       <HiSun className={`w-6 h-6 dark:hidden `} />
       <HiMoon className={`w-6 h-6 hidden dark:block blur-none`} />
