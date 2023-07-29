@@ -3,7 +3,7 @@ export const projects: ProjectData[] = [
     id: 1,
     title: "Alosrah Hospital",
     image: "",
-    desc: "It is a website that I created for the ENR Client Users may schedule appointments, hospitals can manage patients with their treatment histories, and I have two languages (En and Ar) available.",
+    desc: "I made the website for the ENR Client. It contains two languages (En and Ar) that are available, allows users to plan appointments, and hospitals to manage patients and their treatment histories.",
     stack: "React, Node.Js, MongoDB, Express.Js, Tailwind CSS",
     source: "",
     live: "https://osra-hospital.vercel.app/",
