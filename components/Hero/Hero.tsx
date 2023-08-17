@@ -17,7 +17,7 @@ const Hero = () => {
           </h1>
           <p className="lg:text-xl font-light">
             I am a skilled full-stack developer with one year and six months of
-            experience. I use NodeJs, TypeScript, NextJs, and ReactJs in my
+            experience. I use ReactJs, TypeScript, NextJs, and NodeJs in my
             work. I enjoy learning new things and developing myself.
           </p>
 
